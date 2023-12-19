@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: test-dll
+spec:
+  type: grpc
+  lifecycle: experimental
+  owner: guests
+  system: examples
